@@ -1,0 +1,72 @@
+body {
+    margin: 0 auto;
+    max-width: 1366px;
+}
+
+.screen {
+    min-height: 478px;
+    background-color: aliceblue;
+    width: 100%;;
+    background-image: url('background-yellow.jpg');
+}
+
+.screen-options {
+    height: 44px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.screen-options-items-left {
+    padding-top: 8px;
+    display: inline-block;
+}
+
+.screen-options-items-right {
+    padding-top: 8px;
+    display: inline-block;
+    float: right;
+}
+
+.box {
+    background-color: #9ba4b9;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    color: #1F4788;
+}
+
+.item-selector-items {
+    margin-top: 8px;
+}
+
+.next-arrow {
+    margin-top: -92px;
+    background-color: #1F4788;
+    height: 100px;
+    color: white;
+}
+
+.next-arrow:hover {
+    background-color: rgb(87, 126, 189);
+}
+
+.record {
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    margin-left: 5px;
+}
+
+.card-body {
+    color: #1F4788;
+}
+
+.form-select {
+    color: #1F4788;
+}
+select option {
+    color: #1F4788;
+}
